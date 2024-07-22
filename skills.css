@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1rem;
+    padding: 2;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+header {
+    background-color: indigo;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: burlywood;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+main h2 {
+    padding: 0;
+    color: crimson;
+}
+
+main h3 {
+    padding: 0;
+    color: hotpink;
+}
+
+main h4 {
+    padding: 0;
+    color: coral;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+#home img {
+    border-radius: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0;
+    width: 200px;
+}
+
+#home h1 {
+    text-align: left;
+    font-size: 1.2em;
+    color: purple;
+    margin-top: 0;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding:  0;
+}
+
+#skills table {
+    padding: 0;
+    color: forestgreen;
+    border-collapse: collapse;
+
+}
+
+#skills td {
+    background-color: #04AA6D;
+    color:white;
+  }
+
+  #skills table {
+    width: 200;
+    height: 0;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left:  0px;}
+    to {left:  200px;}
+  }
