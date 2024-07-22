@@ -2,7 +2,7 @@
 
 ## Project Objectives
 
-This project aims to create a personal portfolio webpage to showcase your skills, projects, and background. The webpage is designed to be responsive, user-friendly, and accessible.
+This project aims to create a personal portfolio webpage to showcase my skills, projects, and background. The webpage is designed to be responsive, user-friendly, and accessible.
 
 ## Features
 
