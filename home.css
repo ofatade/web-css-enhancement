@@ -1,3 +1,14 @@
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+        margin: 1rem;
+        padding: 2;
+        box-sizing: border-box;
+        background-color: aqua;
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 1rem;
@@ -32,12 +43,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
-}
-
-@media (max-width: 600px) {
-    main {
-        flex-direction: column;
-    }
 }
 
 main h2 {
